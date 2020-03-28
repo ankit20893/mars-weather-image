@@ -78,7 +78,7 @@
           console.log(this.chartdata.labels.length);
           for (var i = 0; i < this.chartdata.labels.length; i++) {
             if (response.data[this.chartdata.labels[i]]){
-              formatted.push({ label: this.chartdata.labels[i], backgroundColor: '#f87979', data : [response.data[this.chartdata.labels[i]].AT['mn'], response.data[this.chartdata.labels[i]].AT['mx']]});
+              formatted.push({ label: this.chartdata.labels[i], backgroundColor: '#f87979', data : [response.data[this.chartdata.labels[i]].AT['mx'], response.data[this.chartdata.labels[i]].AT['mn']]});
             }
           }
           console.log(formatted);

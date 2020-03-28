@@ -1,5 +1,15 @@
 # image-weather-interface
 
+## Project clone
+```
+git clone git@github.com:ankit20893/mars-weather-image.git
+```
+
+## Enter Project directory
+```
+cd mars-weather-image
+```
+
 ## Project setup
 ```
 npm install
