@@ -2,13 +2,21 @@
 
 ## Project clone
 ```
-git clone git@github.com:ankit20893/mars-weather-image.git
+git clone https://github.com/ankit20893/mars-weather-image.git
 ```
 
 ## Enter Project directory
 ```
 cd mars-weather-image
 ```
+
+## Open link in browser
+```
+mars-weather-image/dist/index.html
+```
+
+# OR
+
 
 ## Project setup
 ```
@@ -24,11 +32,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
